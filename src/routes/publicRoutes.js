@@ -47,7 +47,7 @@ server.post('/cadastrar', async (req, res) => {
     return res.status(200).json({ access_token })
 })
 
-server.post('/login', (req, res) => {
+server.post('/logar', (req, res) => {
     const { email, senha } = req.body;
     if (!usuarioExiste(email, senha)) {
         const status = 401
