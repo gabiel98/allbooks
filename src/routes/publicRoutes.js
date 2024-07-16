@@ -47,11 +47,7 @@ server.post('/cadastrar', async (req, res) => {
     return res.status(200).json({ access_token })
 })
 
-<<<<<<< HEAD
 server.post('/entrar', (req, res) => {
-=======
-server.post('/logar', (req, res) => {
->>>>>>> 758d5be50eab62171b5184e2ec9023e2332c1083
     const { email, senha } = req.body;
     if (!usuarioExiste(email, senha)) {
         const status = 401
