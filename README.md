@@ -1,5 +1,7 @@
 # AllBooks
 
+Boa vindas - Estou fazendo o curso da Alura de GIT e GITHUB
+
 O AllBooks é uma loja virtual que vende livros da Casa do Código. 
 É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 
